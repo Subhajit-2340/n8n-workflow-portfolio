@@ -1,0 +1,228 @@
+[
+  {
+    "id": "a1792731051820_n4w1r",
+    "name": "Scheduled Alert & Notification Router",
+    "description": "Daily scheduled trigger evaluating conditions via Switch and routing alerts to Slack and Gmail.",
+    "createdAt": "2026-10-23T04:50:51.819Z",
+    "updatedAt": "2026-10-23T05:03:46.548Z",
+    "canvas": {
+      "nodes": [
+        {
+          "id": 0,
+          "defIdx": 1,
+          "i": 1,
+          "name": "Schedule Trigger",
+          "x": 100,
+          "y": 140
+        },
+        {
+          "id": 4,
+          "defIdx": 18,
+          "i": 18,
+          "name": "Google Sheets",
+          "x": 496.35991643123003,
+          "y": 206.26616555629386
+        },
+        {
+          "id": 5,
+          "defIdx": 2,
+          "i": 2,
+          "name": "Manual Trigger",
+          "x": 70.92363617486944,
+          "y": 314.14692800992987
+        },
+        {
+          "id": 6,
+          "defIdx": 4,
+          "i": 4,
+          "name": "Telegram Trigger",
+          "x": 85.75281156251782,
+          "y": 6.592842211755283
+        }
+      ],
+      "edges": [
+        {
+          "from": 6,
+          "to": 4,
+          "fromPort": 0,
+          "f": 6,
+          "t": 4,
+          "k": 0
+        },
+        {
+          "from": 0,
+          "to": 4,
+          "fromPort": 0,
+          "f": 0,
+          "t": 4,
+          "k": 0
+        },
+        {
+          "from": 5,
+          "to": 4,
+          "fromPort": 0,
+          "f": 5,
+          "t": 4,
+          "k": 0
+        }
+      ]
+    },
+    "nodes": [
+      {
+        "id": 0,
+        "defIdx": 1,
+        "i": 1,
+        "name": "Schedule Trigger",
+        "x": 100,
+        "y": 140
+      },
+      {
+        "id": 4,
+        "defIdx": 18,
+        "i": 18,
+        "name": "Google Sheets",
+        "x": 496.35991643123003,
+        "y": 206.26616555629386
+      },
+      {
+        "id": 5,
+        "defIdx": 2,
+        "i": 2,
+        "name": "Manual Trigger",
+        "x": 70.92363617486944,
+        "y": 314.14692800992987
+      },
+      {
+        "id": 6,
+        "defIdx": 4,
+        "i": 4,
+        "name": "Telegram Trigger",
+        "x": 85.75281156251782,
+        "y": 6.592842211755283
+      }
+    ],
+    "edges": [
+      {
+        "from": 6,
+        "to": 4,
+        "fromPort": 0,
+        "f": 6,
+        "t": 4,
+        "k": 0
+      },
+      {
+        "from": 0,
+        "to": 4,
+        "fromPort": 0,
+        "f": 0,
+        "t": 4,
+        "k": 0
+      },
+      {
+        "from": 5,
+        "to": 4,
+        "fromPort": 0,
+        "f": 5,
+        "t": 4,
+        "k": 0
+      }
+    ]
+  },
+  {
+    "id": "a1792738556490_s3u4a",
+    "name": "demo",
+    "description": "2nd try",
+    "createdAt": "2026-10-23T06:55:56.488Z",
+    "updatedAt": "2026-10-23T06:56:05.616Z",
+    "canvas": {
+      "nodes": [
+        {
+          "id": 0,
+          "defIdx": 1,
+          "i": 1,
+          "name": "Schedule Trigger",
+          "x": 195,
+          "y": 136
+        },
+        {
+          "id": 1,
+          "defIdx": 8,
+          "i": 8,
+          "name": "Merge",
+          "x": 454,
+          "y": 283
+        },
+        {
+          "id": 2,
+          "defIdx": 4,
+          "i": 4,
+          "name": "Telegram Trigger",
+          "x": 217,
+          "y": 253
+        }
+      ],
+      "edges": [
+        {
+          "from": 0,
+          "to": 1,
+          "fromPort": 0,
+          "f": 0,
+          "t": 1,
+          "k": 0
+        },
+        {
+          "from": 2,
+          "to": 1,
+          "fromPort": 0,
+          "f": 2,
+          "t": 1,
+          "k": 0
+        }
+      ]
+    },
+    "nodes": [
+      {
+        "id": 0,
+        "defIdx": 1,
+        "i": 1,
+        "name": "Schedule Trigger",
+        "x": 195,
+        "y": 136
+      },
+      {
+        "id": 1,
+        "defIdx": 8,
+        "i": 8,
+        "name": "Merge",
+        "x": 454,
+        "y": 283
+      },
+      {
+        "id": 2,
+        "defIdx": 4,
+        "i": 4,
+        "name": "Telegram Trigger",
+        "x": 217,
+        "y": 253
+      }
+    ],
+    "edges": [
+      {
+        "from": 0,
+        "to": 1,
+        "fromPort": 0,
+        "f": 0,
+        "t": 1,
+        "k": 0
+      },
+      {
+        "from": 2,
+        "to": 1,
+        "fromPort": 0,
+        "f": 2,
+        "t": 1,
+        "k": 0
+      }
+    ]
+  }
+]

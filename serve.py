@@ -77,7 +77,7 @@ def main():
     try:
         server.serve_forever()
     except KeyboardInterrupt:
-        print("\nStopping server...")
+        print("Stopping server...")
     finally:
         server.server_close()
 

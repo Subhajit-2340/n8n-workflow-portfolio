@@ -126,14 +126,15 @@
         "t": 4,
         "k": 0
       }
-    ]
+    ],
+    "featured": true
   },
   {
     "id": "a1792738556490_s3u4a",
     "name": "demo",
     "description": "2nd try",
     "createdAt": "2026-10-23T06:55:56.488Z",
-    "updatedAt": "2026-10-23T06:56:05.616Z",
+    "updatedAt": "2026-11-06T05:52:55.504Z",
     "canvas": {
       "nodes": [
         {
@@ -223,6 +224,7 @@
         "t": 1,
         "k": 0
       }
-    ]
+    ],
+    "featured": true
   }
 ]

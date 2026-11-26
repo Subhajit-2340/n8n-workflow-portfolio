@@ -77,6 +77,6 @@ python3 serve.py
 ```
 
 URLs:
-* **Public Showcase:** [http://localhost:8000/index.html]([http://localhost:8000/index.html](https://subhajit-2340.github.io/n8n-workflow-portfolio/))
+* **Public Showcase:** [https://subhajit-2340.github.io/n8n-workflow-portfolio/](https://subhajit-2340.github.io/n8n-workflow-portfolio/)
 * **Admin Dashboard:** [http://localhost:8000/admin.html](http://localhost:8000/admin.html)
 * **Node Library (Standalone):** [http://localhost:8000/n8n-node-library.html](http://localhost:8000/n8n-node-library.html)
